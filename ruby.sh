@@ -6,5 +6,7 @@ ruby() {
     ;;
     if) echo "if ... elsif ...else ... end"
     ;;
+    case) echo "case {var} when {var} then ... else ... end"
+    ;;
   esac
 }
