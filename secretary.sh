@@ -1,5 +1,6 @@
 #!/bin/bash
 
-source ./ruby.sh
 
-ruby $2
+# getopts
+syntax=$(cat syntax.json | jq ".$1" | jq ".$2")
+echo $syntax
