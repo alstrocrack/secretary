@@ -1,0 +1,24 @@
+{
+  "name": "secretary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YutoUrushima/secretary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YutoUrushima/secretary/issues"
+  },
+  "homepage": "https://github.com/YutoUrushima/secretary#readme",
+  "dependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-sh": "^0.12.8"
+  }
+}
