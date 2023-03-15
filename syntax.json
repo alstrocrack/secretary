@@ -1,6 +1,7 @@
 {
   "ruby": {
-    "if": "if ... elsif ... else ... end"
+    "if": "if ... elsif ... else ... end",
+    "case": "case ... when ... else ... end"
   },
   "javascript": {
     "if": "if ... else if ... else ... end"
