@@ -5,6 +5,6 @@
   },
   "javascript": {
     "if": "if ... else if ... else ...",
-    "switch": "switch ... case ... default ..."
+    "case": "switch ... case ... default ..."
   }
 }

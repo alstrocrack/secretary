@@ -1,2 +1,5 @@
 # What to quit tracking
 /node_modules
+
+# Don't mind this file...
+script.sh
