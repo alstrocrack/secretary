@@ -21,6 +21,9 @@ case $2 in
   if | else | elsif)
     syntax=if
     ;;
+  case | switch | when | default)
+    syntax=case
+    ;;
   *)
     echo $error
     exit 1
