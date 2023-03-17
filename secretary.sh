@@ -30,4 +30,5 @@ case $2 in
     ;;
 esac
 
-echo $(cat syntax.json | jq ".$language" | jq ".$syntax")
+absolute_path=$(cd $(dirname ${0}) && pwd)
+echo $(cat $absolute_path/syntax.json | jq ".$language" | jq ".$syntax")
