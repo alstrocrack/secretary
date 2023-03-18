@@ -32,4 +32,7 @@ esac
 
 # Get absolute path to syntax.json
 absolute_path=$(cd $(dirname ${0}) && pwd)
-echo $(cat $absolute_path/syntax.json | jq ".$language" | jq ".$syntax")
+# Get the corresponding syntax
+syntax=$(cat $absolute_path/syntax.json | jq ".$language" | jq ".$syntax")
+# Displayed without "
+echo ${syntax//\"/''}
