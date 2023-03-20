@@ -27,6 +27,12 @@ cp ./syntax.json ~/bin/syntax.json
 secretary --ruby if
 ```
 
+The help option calls
+
+```bash
+secretary --help
+```
+
 ## Note
 
 - Only Bash on Ubuntu has been tested to work, other OS and shells are not guaranteed.
