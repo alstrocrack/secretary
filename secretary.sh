@@ -1,6 +1,11 @@
 #!/bin/bash
 
 error="Enter valid option"
+help="Enter 'secretary {language option} {Syntax you want to search}'.
+Option must be specified as long or short option.
+ex.)
+secretary --ruby if
+secretary -j switch"
 
 # language option
 case $1 in
@@ -9,6 +14,10 @@ case $1 in
     ;;
   -j | --javascript)
     language=javascript
+    ;;
+  -h | --help)
+    echo "$help"
+    exit 0
     ;;
   *)
     echo $error
